@@ -1,0 +1,41 @@
+.chats{
+    background-color: darkseagreen;
+    width: 250%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.send-msg {
+    width: 98%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+
+  /* .input-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+  } */
+  
+  .input-group input {
+    flex-grow: 1;
+    width: 80%;
+    border-bottom-right-radius: 30px;
+  }
+  
+  .input-group button {
+    width: 20%;
+    border-bottom-right-radius: 30px;
+  }
+
+  .custom-btn {
+    background-color: #f5efef; /* Adjust this to make the button darker */
+  }
+  

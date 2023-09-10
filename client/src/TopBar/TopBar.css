@@ -1,0 +1,12 @@
+.topBar {
+    height: 190px;
+    width: 100%;
+    background-color: darkgreen;
+    display: flex;
+  }
+  
+  #whatsappLogo {
+    width: auto;
+    padding: 5px;
+    height: 100%;
+  }

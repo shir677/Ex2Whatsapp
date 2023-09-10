@@ -1,0 +1,37 @@
+
+#setting{
+    flex-grow: 1;
+}
+
+.menu-options {
+    position: fixed;
+    background-color: azure;
+    border: 1px solid black;
+    z-index: 1;
+    border-radius: 10px;
+    flex-grow: 1;
+  }
+
+.menu-options li {
+    padding: 10px;
+    white-space: nowrap;
+    /*padding-left: 0; /* Remove left padding */
+}
+
+.menu-options ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .menu-options button.option {
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+  }
+
+
+.menu-options li :hover {
+    background-color:rgb(95, 249, 149);
+  }

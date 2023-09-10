@@ -1,0 +1,41 @@
+.bg-custom {
+  background-color: rgb(95, 249, 149); /* Replace with your desired color */
+}
+
+.container {
+  position: relative;
+  max-width: 90%; /* Set your desired maximum width */
+  padding: 5px;
+  word-wrap: break-word; /* Wrap long words to the next line */
+  word-break: break-all;; /* Ensure long words don't break out of the container */
+}
+
+.message {
+  text-align: left;
+  border-radius: 10px;
+}
+
+.text-color {
+  color: black;
+}
+
+.message2 {
+  text-align: left;
+  border-radius: 10px;
+}
+
+.message-container {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 90%; /* Set your desired maximum width */
+}
+
+.message-container2 {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 90%; /* Set your desired maximum width */
+}
+
+#sizeOfMessage {
+  padding: 2%;
+}

@@ -1,0 +1,9 @@
+.greenBoxChats {
+    width: 60%;
+    border-radius: 30px;
+    background-color: darkseagreen;
+    margin-top: -60px;
+    display: flex;
+    height: 700px;
+}
+

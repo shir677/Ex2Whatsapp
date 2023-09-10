@@ -1,0 +1,17 @@
+#AddClick{
+    flex-grow: 1;
+}
+
+
+.btn-outline-seccess {
+    margin: auto;
+    border-radius: 30px; /* Optional: Add rounded corners */
+  }
+  
+#AddClick:hover {
+    border-color: aquamarine;
+}
+
+#AddClick:active {
+    border-color: aquamarine;
+}

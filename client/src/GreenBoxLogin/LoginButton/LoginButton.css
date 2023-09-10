@@ -1,0 +1,16 @@
+.loginDiv {
+    display: flex;
+    width: 50%;
+  }
+  
+  #loginButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 17px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: honeydew;
+    width: 40%;
+    margin-left: 40px;
+  }

@@ -1,0 +1,50 @@
+#peopleListChats {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  border-radius: 30px;
+  /* background-color: darkseagreen; */
+}
+
+.peopleList {
+  width: 100%;
+  border-radius: 30px;
+}
+
+
+.contactList {
+  height: 88%;
+  overflow-y: auto;
+  display: flex;
+  align-content: flex-start;  
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contactList::-webkit-scrollbar {
+  width: 5px;
+}
+/* 
+.contactList::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+} */
+
+.contactList::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.contactList::-moz-scrollbar {
+  width: 5px;
+}
+
+.contactList::-moz-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+.contactList::-moz-scrollbar-thumb:hover {
+  background: #555;
+}

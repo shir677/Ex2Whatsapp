@@ -1,0 +1,12 @@
+.topChats{
+    display: flex;
+    height: 12%;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.nameCurrent{
+    width: 80%;
+    color: rgba(0, 0, 0, 0.6);
+}
+
